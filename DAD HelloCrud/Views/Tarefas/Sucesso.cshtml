@@ -1,0 +1,13 @@
+﻿@model DAD_HelloCrud.Models.Tarefa
+
+@{
+    ViewBag.Title = "Sucesso";
+}
+
+<h2>
+    @Html.DisplayFor(model => model.nome) cadastrado com sucesso.
+</h2>
+
+<p><a class="btn btn-primary" href="@Url.Action("Index", "Tarefas")">Voltar a Pagina Inicial</a></p>
+
+

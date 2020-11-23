@@ -1,0 +1,30 @@
+﻿@{
+    ViewBag.Title = "Página inicial";
+}
+
+    <div class="jumbotron">
+        <h1>DAD - ASP.NET</h1>
+        <p class="lead">Trabalho final de DAD, voltado para framework ASP.NET MVC.</p>
+        <p class="lead">Intregrantes: Arthur Machado Fernande - Gleison Luis Pereira de Souza - Winclatis Filipe da Costa Ferreira </p>
+        <p>
+            A atividade em si é uma pesquisa sobre a framework e um crud simples de tarefa utilizando:
+
+            <ul class="lead">
+                <li>ASP.NET MVC (Model, View e Controller)</li>
+                <li>DAO (Data Access Object)</li>
+                <li>Banco de dados mysql 8</li>
+            </ul>
+
+        </p><br />
+    </div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Hello World</h2>
+        <p><a class="btn btn-info" href="@Url.Action("HelloWorld", "Home")">Ver Hello World</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Tarefas</h2>
+        <p><a class="btn btn-primary"  href="@Url.Action("Index", "Tarefas")">Visualizar Tarefas</a></p>
+    </div>
+</div>
